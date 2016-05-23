@@ -1,0 +1,354 @@
+/*
+ Desktop
+ */
+@media (min-width: 960px ) {
+	#main-menu {
+		display: block !important;
+	}	
+}
+
+/*
+	Tablet 
+*/
+@media (min-width: 768px) and (max-width: 959px) { 
+
+	#main,
+	#page-header {
+		width: auto;
+	}
+
+	#page {
+		width: 720px;
+	}
+
+	#main {
+		margin-top: 20px;
+		width: 420px;
+	}
+	
+	.main-right {
+		
+	}
+	
+	.sidebar {
+		margin: 20px 0 0;
+	}
+	
+	#footer-social,
+	#footer-contact,
+	#header-contact,
+	#page-header {
+		text-align: center;
+	}
+	
+	#footer-social {
+		margin: 0 0 20px;
+	}
+	
+	#footer-social,
+	#footer-contact,
+	#logo,
+	#header-contact {
+		float: none;
+	}
+	
+	#logo {
+		display: block;
+	}
+	
+	#logo,
+	.address,
+	.phone {
+		margin: 0 0 10px 0;
+	}
+	
+	#footer-contact {
+		margin: 0 0 10px 0;
+	}
+	
+	/* navigation menu */
+	#main-menu {
+		display: none;
+		padding: 0 20px 20px 20px;
+	}
+	
+	#main-menu .menu-item {
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+	
+	#main-menu .sub-menu {
+		background: none;
+		display: block;
+		margin: 0;
+		position: static;
+		width: auto;
+	}
+	
+	#main-menu .sub-menu .menu-item a {
+		padding: 0 0 0 20px;
+	}
+	
+	#mobile-menu-button {
+		display: block;
+	}
+	
+	/* slider */
+	#slider {
+		height: 264px;
+	}
+	
+	#slider-wrapper {
+		margin: 20px 0 0;
+	}
+	
+	#slider > img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+	.nivo-caption {
+		font-size: 24px;
+		padding: 5px 10px;
+	}
+	
+	/* team */
+	.team-member-thumb {
+		float: none;
+		margin: 0 0 20px;
+	}
+	
+	.team-member-thumb img {
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	/* menu */
+	.alehouse-menu-item img {
+		float: none;
+		height: auto;
+		margin: 0 0 20px;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	/* posts */
+	.post img {
+		height: auto;
+		max-width: 100%;
+	}
+	
+		/* gallery */
+	.alehouse-gallery-item {
+		width: 180px;
+	}
+	
+	.alehouse-gallery-item .attachment-alehouse-gallery-thumb {
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	.alehouse-gallery-title {
+		font-size: 18px;
+		padding: 10px 5px;
+	}
+	
+}
+
+/*
+	Mobile Large
+*/
+@media (max-width: 767px ) {
+	
+	#main,
+	#page-header {
+		width: auto;
+	}
+	
+	#page {
+		margin: 0 auto;
+		width: 440px;
+	}
+	
+	#main {
+		float: none;
+		margin: 20px 0;
+	}
+	
+	.sidebar {
+		float: none;
+		width: auto;
+	}
+	
+	#footer-social,
+	#footer-contact,
+	#header-contact,
+	#page-header {
+		text-align: center;
+	}
+	
+	#footer-social,
+	#footer-contact,
+	#logo,
+	#header-contact {
+		float: none;
+	}
+	
+	#logo {
+		display: block;
+	}
+	
+	#logo,
+	.address,
+	.phone {
+		margin: 0 0 10px 0;
+	}
+		
+	#footer-social {
+		margin: 0 0 20px;
+	}
+	
+	/* navigation menu */
+	#main-menu {
+		display: none;
+		padding: 0 20px 20px 20px;
+	}
+	
+	#main-menu .menu-item {
+		float: none;
+		height: auto;
+		margin: 0;
+	}
+	
+	#main-menu .sub-menu {
+		background: none;
+		display: block;
+		margin: 0 0 0 20px;
+		position: static;
+		width: auto;
+	}
+	
+	#mobile-menu-button {
+		display: block;
+	}
+	
+	/* slider */
+	
+	#slider {
+		height: 211px;
+	}
+	
+	#slider-wrapper {
+		margin: 20px 0;
+		padding: 0;
+	}
+	
+	
+	#slider > img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.nivo-directionNav {
+		bottom: 0;
+		right: 0;
+		width: 100%;
+	}
+	
+	.nivo-directionNav .nivo-prevNav,
+	.nivo-directionNav .nivo-nextNav {
+		margin: 0;
+		width: 50%;
+	}
+	
+	.nivo-caption {
+		font-size: 20px;
+		padding: 5px 10px;
+		width: 100%;
+	}
+	
+	/* menu */
+	.alehouse-menu-item img {
+		float: none;
+		height: auto;
+		margin: 0 0 20px;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	/* posts */
+	.post img {
+		height: auto;
+		max-width: 100%;
+	}
+	
+	.entry-meta span {
+		display: block;
+		float: left;
+	}
+	
+	/* comments */
+	.comment .children {
+		padding: 0;
+	}
+	
+	/* team */
+	.team-member-thumb {
+		float: none;
+		margin: 0 0 20px;
+	}
+	
+	.team-member-thumb img {
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	/* gallery */
+	.alehouse-gallery-item {
+		width: 190px;
+	}
+	
+	.alehouse-gallery-item .attachment-alehouse-gallery-thumb {
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	.alehouse-gallery-title {
+		font-size: 18px;
+		padding: 10px 5px;
+	}
+	
+}
+
+/*
+	Mobile small
+*/
+@media (max-width: 479px) {
+	
+	#page {
+		width: 310px;
+	}
+	
+	#slider {
+		height: 161px;
+	}
+	
+	.nivo-caption {
+		font-size: 14px;
+	}
+	
+	/* gallery */
+	.alehouse-gallery-item {
+		width: auto;
+	}
+	
+	.alehouse-gallery-item:nth-child( odd ) {
+		margin: 0 0 20px 0;
+	}
+	
+}

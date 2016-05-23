@@ -1,0 +1,245 @@
+/**
+ * Structure
+ * ----------------------------------------------------------------------------
+ */
+ 
+#header-wrapper {
+	background: #fff;
+}
+
+#header-contact,
+.address a,
+#footer-contact {
+	color: #585d61;
+}
+
+#footer-social .social-link {
+	color: #999;
+}
+
+#footer-social .social-link:hover {
+	color: #2e3133;
+}
+
+/**
+ * Typography 
+ * ----------------------------------------------------------------------------
+ */
+
+body {
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #2e3133;
+}
+
+code,
+pre,
+blockquote {
+	background: #d0d0d0;
+}
+
+blockquote p {
+	color: #000
+}
+
+a:hover {
+	color: #7c7c7c;
+}
+
+.button:hover,
+.comment-reply-link:hover,
+#contact-form-submit:hover,
+.comment-respond #submit:hover,
+.search-submit:hover,
+.more-link:hover {
+	background: #7c7c7c;
+}
+
+code,
+pre {
+	color: #2e3133;
+}
+
+table th {
+	background: #aaa;
+	color: #2e3133;
+}
+
+table th,
+table td {
+	border: 1px solid #7c7c7c ;
+}
+
+/**
+ * Navigation
+ * ----------------------------------------------------------------------------
+ */
+
+#main-menu .menu-item a {
+	color: #2e3133;
+}
+
+#main-menu .sub-menu {
+	background: #fff;
+}
+
+#mobile-menu-button {
+	color: #2e3133;
+}
+
+/**
+ * Posts
+ * ----------------------------------------------------------------------------
+ */
+
+.entry-meta {
+	color: #7c7c7c;
+}
+
+.button:hover,
+.button,
+.more-link:hover,
+.more-link {
+	color: #fff;
+}
+
+.paging-navigation .page-numbers {
+	background: #585d61;
+	color: #fff;
+}
+
+.sticky {
+	background: #fff;
+}
+
+/**
+ * Comments
+ * ----------------------------------------------------------------------------
+ */
+
+.comment-body {
+	background: #fff;
+}
+
+#submit,
+.comment-reply-link:hover,
+.comment-reply-link {
+	color: #fff;
+}
+
+/**
+ * Widgets
+ * ----------------------------------------------------------------------------
+ */
+
+ .widget_calendar caption {
+	color: #2e3133;
+}
+
+.widget_calendar thead th{
+	background: #aaa;
+	border: 1px solid #aaa;
+}
+
+.widget_calendar tbody td {
+	background: #d0d0d0;
+	border: 1px solid #aaa;
+}
+
+.tagcloud a {
+	background: #585d61;
+	color: #fff;
+}
+
+.widget_alehouse_hours .day {
+	color: #2e3133;
+}
+
+.widget_alehouse_special .alehouse-special-price {
+	color: #2e3133;
+}
+
+
+/**
+ * Forms
+ * ----------------------------------------------------------------------------
+ */
+
+select,
+textarea,
+input {
+	background: #d0d0d0;
+	color: #2e3133;
+}
+
+label {
+	color: #2e3133;
+}
+
+.search-submit,
+#contact-form-submit {
+	color: #fff;
+}
+
+/**
+ * Team
+ * ----------------------------------------------------------------------------
+ */
+
+.alehouse-team-member {
+	background: #fff;
+}
+
+.team-member-email a,
+.team-member-email,
+.team-member-position {
+	color: #7c7c7c;
+}
+
+/**
+ * Menu
+ * ----------------------------------------------------------------------------
+ */
+
+.alehouse-menu-item {
+	background: #fff;
+}
+
+.alehouse-menu-item-price {
+	color: #2e3133;
+}
+
+/**
+ * Gallery
+ * ----------------------------------------------------------------------------
+ */
+.alehouse-gallery-item {
+	background: #fff;
+}
+
+/**
+ * Miscellaneous
+ * ----------------------------------------------------------------------------
+ */
+ 
+.transparent-bg {
+	background: rgba( 255, 255, 255, 0.90 );
+}
+
+.nivo-directionNav .nivo-prevNav,
+.nivo-directionNav .nivo-nextNav  {
+	color: #fff;
+	background: #585d61;
+}
+
+.nivo-lightbox-theme-default.nivo-lightbox-overlay { 
+	background: #585d61;
+	background: rgba(0,0,0,0.6); 
+}
